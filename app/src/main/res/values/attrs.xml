@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="primaryTextColor" format="color"/>
+    <attr name="buttonNormalColor" format="color"/>
+    <attr name="buttonHighlightColor" format="color" />
+    <attr name="buttonTextColor" format="color" />
+    <attr name="primaryButtonTheme" format="color" />
+    <attr name="colorPrimary" format="color"/>
+    <attr name="colorPrimaryDark" format="color"/>
+    <attr name="colorTextView" format="color"/>
+    <attr name="colorTextButton" format="color"/>
+
+
+</resources>

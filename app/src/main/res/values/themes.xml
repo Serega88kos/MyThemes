@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+
+    <style name="Theme.App.Mint" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/mintColorPrimary</item>
+        <item name="colorPrimaryDark">@color/mintColorPrimaryDark</item>
+        <item name="colorAccent">@color/mintColorAccent</item>
+        <item name="primaryTextColor">@color/mintPrimaryTextColor</item>
+        <item name="buttonNormalColor">@color/mintButtonNormalColor</item>
+        <item name="buttonHighlightColor">@color/mintButtonHighlightColor</item>
+        <item name="buttonTextColor">@color/mintButtonTextColor</item>
+        <item name="colorTextView">@color/mintColorTextView</item>
+        <item name="colorTextButton">@color/mintColorTextButton</item>
+    </style>
+
+    <style name="Theme.App.Lilac" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorTextView">@color/lilacColorTextView</item>
+        <item name="colorTextButton">@color/lilacColorTextButton</item>
+    </style>
+
+  </resources>

@@ -14,9 +14,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sample_text"
-        android:textSize="50sp"
+        android:textAlignment="center"
         android:textColor="?attr/colorTextView"
-         />
+        android:textSize="50sp" />
 
     <Button
         android:id="@+id/button"
@@ -26,4 +26,28 @@
         android:textSize="40sp"
         android:textColor="?attr/colorTextButton"
         />
+
+
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             >
+
+            <RadioButton
+                android:id="@+id/RBmint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_mint" />
+
+            <RadioButton
+                android:id="@+id/RBlilac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/theme_lilac" />
+        </RadioGroup>
+
+
+
 </LinearLayout>

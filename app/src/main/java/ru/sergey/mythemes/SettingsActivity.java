@@ -2,7 +2,6 @@ package ru.sergey.mythemes;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-
 import androidx.appcompat.app.ActionBar;
 import java.util.Objects;
 
@@ -24,6 +23,8 @@ public class SettingsActivity extends MainActivity {
                     .commit();
         }
     }
+
+    /*
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
@@ -31,6 +32,6 @@ public class SettingsActivity extends MainActivity {
         }
         return super.onOptionsItemSelected(item);
     }
-
+*/
 
 }

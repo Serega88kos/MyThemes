@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId ) {
-                RadioButton radioButton = (RadioButton)group.findViewById(checkedId);
+                RadioButton radioButton = group.findViewById(checkedId);
                 boolean isChecked = radioButton.isChecked();
 
 
